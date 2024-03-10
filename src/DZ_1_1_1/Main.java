@@ -1,4 +1,4 @@
-package DZ_1_1;
+package DZ_1_1_1;
 
 import java.util.Scanner;
 
