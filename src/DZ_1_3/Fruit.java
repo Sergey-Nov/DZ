@@ -25,8 +25,9 @@ public class Fruit {
             Fruit banana = new Fruit("Банан", 4, "Нет в наличии");
 
         Object[] fruit = new Object[]{apple,orange,banana};
-        for (int i = 0;i < fruit.length;i++){
-        System.out.println(fruit[i].toString());}
+        for (Object o : fruit) {
+            System.out.println(o.toString());
+        }
 
     }
 }
