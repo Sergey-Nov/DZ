@@ -1,10 +1,8 @@
 package DZ_4_1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
-public class BinarySearch {
+public class MyBinarySearch {
     public static void main(String[] args) {
         Random random = new Random();
         int randomInt = random.nextInt(1000000,2000000);
@@ -15,7 +13,7 @@ public class BinarySearch {
         }
 
 
-        System.out.println(BinarySearchMethod.binarySearch(numb,randomInt));
+        System.out.println(MyBinarySearchMethod.binarySearch(numb,randomInt));
         System.out.println(randomInt);
 
     }

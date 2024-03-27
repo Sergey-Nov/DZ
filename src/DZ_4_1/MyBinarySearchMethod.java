@@ -1,6 +1,6 @@
 package DZ_4_1;
 
-public class BinarySearchMethod {
+public class MyBinarySearchMethod {
     public static int binarySearch(int [] arr, int numberToSearch){
         int firstIndex = 0;
         int lastIndex = arr.length - 1;

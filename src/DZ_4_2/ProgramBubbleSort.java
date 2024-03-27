@@ -1,12 +1,11 @@
 package DZ_4_2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static DZ_4_2.BubbleSort.sorted;
+import static DZ_4_2.BubbleSortToArray.sorted;
 
-public class Program {
+public class ProgramBubbleSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstIndex = scanner.nextInt();

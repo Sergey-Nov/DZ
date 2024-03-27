@@ -1,7 +1,7 @@
 package DZ_4_2;
 
 
-public class BubbleSort {
+public class BubbleSortToArray {
     public static void sorted(int[] sortArr) {
         boolean isSorted = false;
         while (!isSorted){

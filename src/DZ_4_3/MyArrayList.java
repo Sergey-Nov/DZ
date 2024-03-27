@@ -39,7 +39,7 @@ public class MyArrayList {
         }
     return true;
     }
-    private boolean addArray(Object[] objects){
+    private boolean addArr(Object[] objects){
         if (capacity!=element.length){
             for (int i = 0; i < element.length; i++) {
                 if (element[i]==null){
