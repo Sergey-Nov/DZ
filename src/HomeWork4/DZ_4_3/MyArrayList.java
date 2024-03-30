@@ -1,13 +1,13 @@
-package DZ_4_3;
+package HomeWork4.DZ_4_3;
 
 
 public class MyArrayList {
     private int capacity = 10;
     private Object[] element;
 
-    public MyArrayList(int capacity, Object[] element) {
+    public MyArrayList(int capacity) {
         this.capacity = capacity;
-        this.element = element;
+
     }
 
     public int getCapacity() {
@@ -25,8 +25,9 @@ public class MyArrayList {
     public void setElement(Object[] element) {
         this.element = element;
     }
-    private boolean add(Object object){
-        if (capacity!=element.length){
+    public boolean add(Object object){
+
+        if (capacity>this.element.length){
             for (int i = 0; i < element.length; i++) {
                 if (element[i]==null){
                     this.element[i] = object;
@@ -70,6 +71,7 @@ public class MyArrayList {
         }
         return true;
     }
+
 }
 
 

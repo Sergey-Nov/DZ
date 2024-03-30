@@ -1,4 +1,4 @@
-package DZ_4_1;
+package HomeWork4.DZ_4_1;
 
 import java.util.Random;
 

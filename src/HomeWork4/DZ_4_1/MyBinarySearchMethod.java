@@ -1,4 +1,4 @@
-package DZ_4_1;
+package HomeWork4.DZ_4_1;
 
 public class MyBinarySearchMethod {
     public static int binarySearch(int [] arr, int numberToSearch){

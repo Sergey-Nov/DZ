@@ -1,4 +1,4 @@
-package DZ_4_2;
+package HomeWork4.DZ_4_2;
 
 
 public class BubbleSortToArray {

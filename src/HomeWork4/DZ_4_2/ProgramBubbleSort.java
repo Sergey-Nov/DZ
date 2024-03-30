@@ -1,9 +1,9 @@
-package DZ_4_2;
+package HomeWork4.DZ_4_2;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static DZ_4_2.BubbleSortToArray.sorted;
+import static HomeWork4.DZ_4_2.BubbleSortToArray.sorted;
 
 public class ProgramBubbleSort {
     public static void main(String[] args) {
